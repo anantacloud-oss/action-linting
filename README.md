@@ -1,4 +1,4 @@
-![Maintainer](https://img.shields.io/badge/Maintained%20By-Ananta%20Cloud-brightgreen) [![ActionLint GitHub Action Workflow](https://github.com/anvayacloud/action-linting/actions/workflows/main.yaml/badge.svg)](https://github.com/anvayacloud/action-linting/actions/workflows/main.yaml) 
+![Maintainer](https://img.shields.io/badge/Maintained%20By-Ananta%20Cloud-brightgreen) [![ActionLint GitHub Action Workflow](https://github.com/anantacloud-oss/action-linting/actions/workflows/main.yaml/badge.svg)](https://github.com/anantacloud-oss/action-linting/actions/workflows/main.yaml) 
 
 # Introduction
 
@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run Action Linting
-      uses: anvayacloud/action-linting@main
+      uses: anantacloud-oss/action-linting@main
 ```
 
 ## Action Linting Options
@@ -32,7 +32,7 @@ For Example:
 ```yaml
     ...
     - name: Run Action Linting
-      uses: anvayacloud/action-linting@v0.0.1
+      uses: anantacloud-oss/action-linting@v0.0.1
       with:
         arguments: "-color"
 ```
@@ -45,14 +45,14 @@ For Example:
 ```yaml
     ...
     - name: Run Action Linting
-      uses: anvayacloud/action-linting@v0.0.1
+      uses: anantacloud-oss/action-linting@v0.0.1
       with:
         files: main.yaml
         arguments: "-color -ignore 'SC2016:'"
 ```
 
 ## Contributing
-We would love you to contribute to `@anvayacloud/action-linting`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+We would love you to contribute to `@anantacloud-oss/action-linting`, pull requests are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
 
 ## License
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
